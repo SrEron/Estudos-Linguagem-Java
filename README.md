@@ -15,4 +15,5 @@ Contribuições São Bem-Vindas!
 
 Encorajo todos os entusiastas de Java a participar. Sinta-se à vontade para abrir problemas (issues) se tiver dúvidas ou sugestões, e também aceito contribuições (pull requests) para melhorar este repositório.
 
-Vamos aprender juntos e construir uma comunidade de aprendizado em Java. Vamos em frente!
+
+
