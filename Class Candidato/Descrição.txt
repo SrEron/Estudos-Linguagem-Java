@@ -1,0 +1,51 @@
+ problema apresentado envolve a criação de uma classe chamada "Candidato" em Java para armazenar informações relacionadas a candidatos de um programa de música na TV. Cada candidato deve ter um código (um número inteiro único), um nome (uma string), notas atribuídas por diferentes jurados (um vetor de números reais), uma nota final (um número inteiro) e um nível (um caractere).
+
+A classe "Candidato" deve ser projetada com os seguintes requisitos:
+
+Atributos:
+
+codigo (int): O código único do candidato.
+nome (String): O nome do candidato.
+notas (vetor de doubles): As notas atribuídas pelos jurados.
+notaFinal (int): A nota final calculada com base nas notas dos jurados.
+nivel (char): O nível atribuído ao candidato com base na sua nota final.
+Construtores:
+A classe "Candidato" deve ter pelo menos dois construtores, um construtor vazio e outro construtor que permite inicializar os atributos da classe com os valores fornecidos.
+
+Métodos Getters e Setters:
+A classe deve fornecer métodos getters para acessar os valores dos atributos privados e métodos setters para definir esses valores.
+
+Método toString:
+Um método toString deve ser implementado para que um objeto "Candidato" possa ser representado como uma string formatada. Esta representação pode incluir o código, nome, nota final e nível do candidato.
+
+Processamento de Entrada e Saída:
+Um mecanismo de processamento de entrada deve ser criado para ler os dados dos candidatos da entrada padrão (por exemplo, do teclado). Os dados lidos devem ser usados para criar objetos "Candidato" e calcular a nota final e o nível de cada candidato. As informações correspondentes à saída do algoritmo devem ser exibidas na saída padrão (por exemplo, no console).
+Descrição do Codigó
+
+Classe Candidato
+
+A classe Candidato é uma representação de candidatos que armazena informações sobre eles, como código, nome, notas, nota final e nível. Vamos analisar os componentes da classe:
+
+Atributos (ou Variáveis de Instância):
+codigo: É um número inteiro que identifica exclusivamente cada candidato.
+nome: Armazena o nome do candidato como uma string.
+notas: Um array de valores double para armazenar as notas do candidato em cinco áreas diferentes.
+notaFinal: Uma nota final (arredondada) do candidato como um número inteiro.
+nivel: O nível do candidato (A, B, C, D ou E) com base em sua nota final.
+Construtores:
+A classe possui dois construtores: um construtor padrão (sem argumentos) e um construtor parametrizado (com argumentos) que permite criar objetos Candidato com informações específicas.
+Métodos Getters e Setters:
+Para acessar e modificar os atributos privados da classe, foram implementados métodos getters e setters. Os getters permitem obter valores dos atributos, enquanto os setters permitem definir valores para os atributos.
+Método validaDados:
+Este método verifica se os dados de entrada para um candidato são válidos. Ele garante que existam exatamente sete elementos de dados e que nenhum deles seja "x". Isso ajuda a manter a integridade dos dados.
+Método maiorQueSetentaPorCento:
+Este método verifica se alguma das notas do candidato é maior ou igual a 7,0, o que significa que o candidato obteve uma nota igual ou superior a 70%.
+Método setNotaFinal:
+Este método calcula a nota final do candidato com base na média das cinco notas e a arredonda para um número inteiro. Além disso, define o nível do candidato (A, B, C, D ou E) com base em faixas pré-definidas de notas.
+Método toString:
+Este método fornece uma representação em formato de string das informações do candidato, incluindo código, nome, nota final e nível. É útil para exibir os dados do candidato de forma legível.
+Método main:
+O método main é o ponto de entrada do programa Java.
+Ele lê dados de candidatos da entrada padrão (por exemplo, console) em um loop até encontrar "FIM".
+Para cada candidato, ele analisa os dados, valida-os, calcula a nota final e cria objetos Candidato.
+Após o processamento, ele exibe os candidatos que atendem a critérios específicos, como notas maiores ou iguais a 70% e nota final maior ou igual a 40.

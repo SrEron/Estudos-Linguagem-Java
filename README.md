@@ -9,7 +9,7 @@ Atividades de POO: Prepare-se para mergulhar no mundo da Programação Orientada
 
 Manipulação de Arquivos: Aprenderemos a ler e escrever em arquivos, uma habilidade essencial para a manipulação de dados no mundo real. Você encontrará exemplos e exercícios práticos relacionados à leitura e geração de arquivos.
 
-Análise Pessoal: À medida que avançamos, vou compartilhar minhas percepções e análises pessoais sobre a linguagem Java. Vamos explorar suas vantagens, desafios e melhores práticas, tornando este repositório um recurso valioso para quem deseja aprender Java.
+Implimentação de ordenção de memoria: Irei implementar modelos de ordenção em java como bublle sort, selection sort, shell sort, quick sort e heap sort aprendidos na minha faculdade em  AEDS(ALgoritmos e Estrutura de Dados).
 
 Contribuições São Bem-Vindas!
 
